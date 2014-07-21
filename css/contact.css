@@ -1,0 +1,261 @@
+#contact-form > p {
+    margin-bottom: 1px;
+}
+
+#contact-form > p:nth-child(5) {
+    text-align: center;
+}
+
+#contact-form .field {
+    font-family: arial;
+    width: 100%;
+    padding: 20px 15px;
+    margin: 0;
+    /*text-transform: uppercase;*/
+}
+
+#contact-submit {
+    padding: 2px 30px !important;
+    margin: 20px 0 !important;
+    color: #fff;
+    border-color: #fff;
+
+}
+#contact-submit:hover {
+    background: #fff;
+    border-color: #fff;
+    color: #000;
+}
+#note {
+    color: #A9B9EB;
+}
+
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    font: 28px 'leaguegothicregular', Helvetica, Arial;
+    text-transform: uppercase;
+    padding: 2px 5px 0px 5px !important;
+    margin: 0 5px 5px 0 !important;
+    text-align: center;
+
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button {
+    color: #000;
+    border: 1px solid #000;
+}
+
+.button.white {
+    background: none;
+    border-color: #e1dbd3;
+    color: #e1dbd3;
+}
+
+.button.white:hover {
+    background: #e1dbd3;
+    border-color: #e1dbd3;
+    color: #000;
+}
+
+.button.white a {
+    /*color: #fff;*/
+}
+
+.button.gray {
+    background: none;
+    border-color: #555;
+    color: #555;
+}
+
+.button.gray:hover {
+    background: #555;
+    border-color: #555;
+    color: #fff;
+}
+
+.button.gray a {
+    color: #555;
+}
+
+.button.red {
+    background: none;
+    border-color: #ff6867;
+    color: #ff6867;
+}
+
+.button.red:hover {
+    background: #ff6867;
+    border-color: #ff6867;
+    color: #fff;
+}
+
+.button.red a {
+    color: #ff6867;
+}
+
+.button.orange {
+    background: none;
+    border-color: #fffa68;
+    color: #fffa68;
+}
+
+.button.orange:hover {
+    background: #fffa68;
+    border-color: #fffa68;
+    color: #fff;
+}
+
+.button.orange a {
+    color: #fffa68;
+}
+
+.button.green {
+    background: none;
+    border-color: #68ffa8;
+    color: #68ffa8;
+}
+
+.button.green:hover {
+    background: #68ffa8;
+    border-color: #68ffa8;
+    color: #fff;
+}
+
+.button.green a {
+    color: #68ffa8;
+}
+
+.button.blue {
+    background: none;
+    border-color: #68c5ff;
+    color: #68c5ff;
+}
+
+.button.blue:hover {
+    background: #68c5ff;
+    border-color: #68c5ff;
+    color: #fff;
+}
+
+.button.blue a {
+    color: #68c5ff;
+}
+
+.button.purple {
+    background: none;
+    border-color: #af68ff;
+    color: #af68ff;
+}
+
+.button.purple:hover {
+    background: #af68ff;
+    border-color: #af68ff;
+    color: #fff;
+}
+
+.button.purple a {
+    color: #af68ff;
+}
+
+.button.black {
+    background: none;
+    border-color: #000;
+    color: #000;
+}
+
+.button.black:hover {
+    background: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+.button.black a {
+    color: #000;
+}
+
+.cuba {
+    height: 1px;
+    width: 100%;
+    background-color: #cecece;
+    border: none;
+}
+
+input[type=text], textarea {
+    border: 1px solid #E5E6EC;
+}
+
+input[type=submit], button[type=submit] {
+    border: 1px solid #38393e;
+}
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Setup
+/*-----------------------------------------------------------------------------------*/
+body {
+    font-size: 16px;
+}
+
+#main {
+
+}
+
+/* static bg image*/
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width: none;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.bgwidth {
+    width: 100%;
+
+}
+
+.bgheight {
+    height: 100%;
+
+}
+
+input,
+textarea {
+    font-size: 0.95em;
+    outline: 0;
+    padding: 5px;
+
+    -webkit-transition: box-shadow 0.25s ease-out;
+    -moz-transition: box-shadow 0.25s ease-out;
+    transition: box-shadow 0.25s ease-out;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input[type=submit], button[type=submit] {
+    /*border: none;*/
+    cursor: pointer;
+    background: none;
+}

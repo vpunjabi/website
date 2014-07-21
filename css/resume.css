@@ -1,0 +1,43 @@
+.heading{
+	text-align: center;
+	font-size:x-large;
+}
+
+.subheading{
+	text-decoration: underline;
+}
+/*
+.details{
+	text-indent: 10px;
+}
+*/
+.resumeText{
+	font-size:medium;
+}
+.company{
+	display:inline-block;
+	font-style:italic;
+	font-weight:bold;
+}
+.item{
+	display:inline-block;
+	font-style:italic;
+	font-weight:bold;
+	text-indent: 10px;
+}
+.itemHeading{
+	font-style:italic;
+	display:inline-block;
+	text-indent: 20px;
+	float:right;
+}
+.indent{
+	text-indent: 20px;
+	display:inline-block;
+}
+/*
+.itemDetail{
+	display:inline-block;
+	text-indent: 30px;
+}
+*/
